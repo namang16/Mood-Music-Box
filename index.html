@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,700,0,0" />
+    <title>MMB | Generate Playlist</title>
+</head>
+<body>
+    <div id="title">Mood Music Box</div>
+    <hr id="hrtitle">
+    <div id="all-content">
+        <div id="mood-desc">So, How's Your Mood Today?</div>
+        <div id="mood-buttons">
+            <button class="mbutton btn" id="mood1" onclick="mbutton_sel(this.id)">Energetic</button>
+            <button class="mbutton btn" id="mood2" onclick="mbutton_sel(this.id)">Low</button>
+            <button class="mbutton btn" id="mood3" onclick="mbutton_sel(this.id)">Relax</button>
+            <button class="mbutton btn" id="mood4" onclick="mbutton_sel(this.id)">Focus</button>
+            <button class="mbutton btn" id="mood5" onclick="mbutton_sel(this.id)">Party</button>
+        </div>
+        <div id="lang-desc">Choose Your Language:</div>
+        <div id="lang-buttons">
+            <button class="lbutton btn" id="lang1" onclick="lbutton_sel(this.id)">English</button>
+            <button class="lbutton btn" id="lang2" onclick="lbutton_sel(this.id)">Hindi</button>
+            <button class="lbutton btn" id="lang3" onclick="lbutton_sel(this.id)">Mix</button>
+        </div>
+        <button id="pl-generate" onclick="checkml()">
+            <span class="material-symbols-outlined" id="pl-try">
+                navigate_next
+            </span>
+        </button>
+    </div>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
