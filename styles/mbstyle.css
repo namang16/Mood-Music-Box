@@ -1,0 +1,68 @@
+*{
+    font-family: 'Lobster', cursive;
+}
+
+body{
+    background-color: rgb(44, 44, 44);
+    transition: background-color 1.0s;
+}
+
+#head{
+    font-size: 40px;
+    margin: 20px;
+    color: white;
+    letter-spacing: 5px;
+}
+
+#container{
+    display: flex;
+    flex-direction: row;
+    width: 90vw;
+    height: 70vh;
+    background-color: black;
+    margin: 20px auto;
+}
+
+#player{
+    width: 70%;
+    height: 100%;
+}
+
+#pl-list{
+    width: 30%;
+    height: 100%;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+#pl-list::-webkit-scrollbar{
+    width: 0px;
+}
+
+.pl-nplay{
+    font-size: 24px;
+    color: white;
+    padding: 40px 20px;
+    border: 2px white solid;
+    border-radius: 20px;
+}
+
+#pl-play{
+    border: 2px orange solid;
+    font-weight: bold;
+    color: orange;
+}
+
+#pl-vid{
+    height: 100%;
+    width: 100%;
+}
+
+#vtitle{
+    padding: 20px 40px;
+    width: 84.8vw;
+    font-size: 24px;
+    background-color: black;
+    color: white;
+    margin: 0px auto;
+}

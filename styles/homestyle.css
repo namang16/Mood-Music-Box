@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+  
+body::before{
+    content: "";
+    background: url('../images/bg-home.jpg');
+    background-size: cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 1.9;
+}
+
+#main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#title{
+    font-family: 'Lobster', cursive;
+    font-size: 5rem;
+    color: orange; 
+    margin-top: 95px;
+}
+
+#desc{
+    margin: 50px 300px;
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+    font-family: 'Lobster',cursive;
+}
+
+#nextp-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Lobster',cursive;
+    letter-spacing: 1.0px;
+    font-size: 1.2rem;
+    margin-top: 25px;
+    padding: 7px 45px;
+    background-color: orange;
+    color: white;
+    border-width: 0px;
+    border-radius: 50px;
+    border-style: solid;
+    transition: color 0.5s, background-color 0.5s, padding 0.3s;
+    cursor: pointer;
+}
+
+#nextp-button:hover{
+    background-color: white;
+    color: orange;
+    padding: 7px 50px;
+}
+
+#npbutton-written{
+    padding-right: 10px;
+}

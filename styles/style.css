@@ -1,0 +1,130 @@
+*{
+  font-family: 'Lobster', cursive;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+#title {
+  letter-spacing: 1.5px;
+  font-size: 4rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: orange;
+  position: relative;
+}
+
+#hrtitle{
+  width: 95%;
+  height: 4px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+#all-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#mood-desc{
+  font-size: 2rem;
+  color: white;
+  margin: 40px 0px;
+}
+
+#lang-desc{
+  font-size: 2rem;
+  color: white;
+  margin: 50px 0px;
+}
+
+.btn{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1rem;  
+  font-weight: bold;
+  color: white;
+  background-color: orange;
+  border-radius: 80px;
+  border-width: 0px;
+  border-style: solid;
+}
+
+#mood-buttons{
+  text-align: center;
+  height: 100px;
+}
+
+#lang-buttons{
+  text-align: center;
+  width: 60%;
+  height: 60px;
+}
+
+.mbutton{
+  margin: 0px 60px;
+  margin-top: 5px;
+  height: 80px;
+  width: 80px;
+}
+
+.lbutton{
+  margin: 0px 30px;
+  margin-top: 5px;
+  height: 50px;
+  width: 140px;
+}
+
+.btn:hover{
+  color: orange;
+  background-color: white;
+  border-color: orange;
+}
+
+.mbutton:hover{
+  margin: 0px 50px;
+  margin-top: 5px;
+  height: 75px;
+  width: 100px;
+}
+
+.lbutton:hover{
+  margin: 0px 20px;
+  width: 160px;
+}
+
+#pl-generate{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  margin-top: 100px;
+  color: white;
+  background-color: orange;
+  border-radius: 60px;
+  border-width: 0px;
+  height: 60px;
+  width: 60px;
+}
+
+#pl-generate:hover{
+  color: orange;
+  background-color: white;
+}
+
+#pl-try{
+  font-size: 50px;
+}
+
+.opt-selected{
+  font-size: 1.3rem;
+  color: orange;
+  background-color: white;
+  border-color: orange;
+}
